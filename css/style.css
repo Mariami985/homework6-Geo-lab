@@ -1,0 +1,142 @@
+/*base clasess*/
+.clear {
+	clear: both; 
+}
+body {
+	padding-top: 156px;
+	background-color: #E9E5E5;
+}
+/*header*/
+.header-wraper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.logo{
+	float: left;
+	margin: 20px 80px;
+}
+.navigation{
+	font-family: 'Poppins';
+	float: left;
+	text-transform: uppercase;
+
+}
+.nav-ul::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-li{
+	float: left;
+	margin: 70px 20px;
+	font-size: 20px;
+
+}
+.nav-li a {
+	color:#181C28;;
+}
+/*1 section*/
+.logo2 {
+	background-image: url(../img/Fashion.jpg);
+    height: 382px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-li{
+    position: absolute;
+    top: 105px;
+    left: 647px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+.text-li1 {
+    position: absolute;
+    top: 132px;
+    left: 700px;
+    font-family: 'Poppins';
+    font-size: 48px;
+    color: #fff;
+    }
+.title-h4{
+	font-size: 16px;
+	color: #FF7A00;
+	text-transform: capitalize;
+	font-family: 'Poppins';
+	float: left;
+	margin: 80px;
+	padding-top: 382px;
+
+}
+/*2 section*/
+.section-wraper::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.left-image{
+	float: left;
+}
+.left-image img{
+	margin-bottom: 50px;
+	margin-right: 30px;
+}
+.text::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.text {
+	float:left;
+}
+.text h2{
+	font-size: 20px;
+	color: #181C28;
+	font-weight: bold;
+	font-family: 'Kalam';
+	margin-bottom: 10px;
+}
+.text-p{
+	width:640px;
+	font-size: 16px;
+	font-family: 'Poppins';
+
+}
+.read {
+	float: left;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: #FF7A00;
+    text-transform: capitalize;
+}
+.read::after {
+    content: "";
+    clear: both;
+    width: 47px;
+    height: 4px;
+    margin-left: 18px;
+    background-color: #FF7A00;
+    display:inline-block;
+}
+.box1{
+	width: 200px;
+	height: 80px;
+	background-color:  #FF7A00;
+	margin: 0 auto;
+	position: relative;
+}
+.text3{
+	position: absolute;
+	bottom: 50;
+	right: 40;
+	color: white;
+	text-transform: capitalize;
+
+}
+	
+
+
