@@ -127,16 +127,15 @@ body {
 	height: 80px;
 	background-color:  #FF7A00;
 	margin: 0 auto;
+	margin-bottom: 50px;
 	position: relative;
 }
-.text3{
+.box1 h4{
 	position: absolute;
-	bottom: 50;
-	right: 40;
-	color: white;
-	text-transform: capitalize;
-
+    top: 30px;
+    left: 60px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
 }
-	
-
-
